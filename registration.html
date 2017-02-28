@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<label for="first">First Name:</label>
+	<input id="first" type="text" placeholder="John" name="name" required>
+	<label for="last">Last Name:</label>
+	<input id="last" type="text"  placeholder="Smith" name="name" required>
+	<br />
+	<label for="male">Male</label>
+	<input id="male" type="radio" value="male" name="sex">
+	<label for="female">Female</label>
+	<input id="female" type="radio" value="female" name="sex">
+	<label for="other">Other</label>
+	<input id="other" type="radio" value="other" name="sex">
+	<br />
+	<label for="username">Email:</label>
+	<input id="username" type="email" placeholder="Email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+
+
+
+
+	<br />
+	<input type="submit" name="">
+</form>
+
+
+
+</body>
+</html>
