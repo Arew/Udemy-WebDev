@@ -7,31 +7,54 @@
 <h1>Register</h1>
 
 <form>
+<div>
 	<label for="first">First Name:</label>
 	<input id="first" type="text" placeholder="John" name="name" required>
 	<label for="last">Last Name:</label>
 	<input id="last" type="text"  placeholder="Smith" name="name" required>
-	<br />
+</div>
+<div>
 	<label for="male">Male</label>
 	<input id="male" type="radio" value="male" name="sex">
 	<label for="female">Female</label>
 	<input id="female" type="radio" value="female" name="sex">
 	<label for="other">Other</label>
 	<input id="other" type="radio" value="other" name="sex">
-	<br />
+</div>
+<div>
 	<label for="username">Email:</label>
 	<input id="username" type="email" placeholder="Email" required>
 	<label for="password">Password:</label>
 	<input id="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
-
-
-
-
-	<br />
+</div>
+<div>
+	<label for="birthday">Birthday:</label>
+	<select id="birthday" name="month">
+		<option value="month">Month</option>
+		<option value="Jan">Jan</option>
+		<option value="Feb">Feb</option>
+		<option value="March">March</option>
+	</select>
+	<select id="birthday" name="day">
+		<option value="day">Day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<select id="birthday" name="year">
+		<option value="year">Year</option>
+		<option value="2017">2017</option>
+		<option value="2016">2016</option>
+		<option value="2015">2015</option>
+	</select>
+</div>
+<div>
+	<label for="tos">I agree to the terms and conditions</label>
+	<input id="tos" type="checkbox" name="TOS">
+</div>
+<div>
 	<input type="submit" name="">
+</div>
 </form>
-
-
-
 </body>
 </html>
